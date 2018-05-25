@@ -23,6 +23,7 @@
 
 
 //= require ./myapp/app
+//= require_tree ./myapp/services
 //= require_tree ./myapp/controllers
 
 

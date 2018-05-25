@@ -8,6 +8,9 @@ gem 'jquery-rails', '4.3.3'
 gem 'jbuilder', '2.7.0'
 gem 'sdoc', '0.4.2', group: :doc
 ################################
+# gem 'bcrypt', git: 'https://github.com/codahale/bcrypt-ruby.git', :require => 'bcrypt'
+
+gem 'bcrypt', '~> 3.1.7'
 gem 'figaro', '1.1.1'
 gem 'bootstrap-sass', '3.3.7'
 gem 'sprockets', '3.7.1'
@@ -15,6 +18,7 @@ gem 'puma', '3.6.0'
 gem 'angular-rails-templates', '1.0.2'
 gem 'bower-rails', '0.11.0'
 gem 'seed_dump', '3.2.4'
+gem 'jwt'
 ################################
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console

@@ -1,5 +1,12 @@
 Rails.application.routes.draw do
 
+  get 'login' => 'users#new'
+
+  resources :users, only: [:create, :new] do
+    post 'login_user', on: :collection
+  end
+
+  resources :welcome, only: [:index]
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
